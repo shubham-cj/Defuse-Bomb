@@ -1,0 +1,34 @@
+.timer-container {
+    text-align: center;
+    background-image: radial-gradient(rgb(234, 234, 234), rgb(203, 203, 255));
+    height: 100vh;
+    padding: 20px;
+    padding-top: 150px;
+}
+
+.bg-red{
+    background-image: radial-gradient(rgb(234, 234, 234), rgb(255, 119, 119));
+}
+
+.bg-green{
+    background-image: radial-gradient(rgb(234, 234, 234), rgb(119, 255, 135));
+}
+
+.timer-display {
+    margin: 20px 0px 0px;
+    color: white;
+    font-size: 50px;
+}
+
+.user-input {
+    text-align: center;
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 6px;
+    width: 100px;
+}
+
+.bomb-image {
+    width: 140px;
+    margin-top: 40px;
+}
