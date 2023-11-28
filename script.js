@@ -27,22 +27,3 @@ defuser.addEventListener("keypress", function(event){
         mainContainer.appendChild(refresh)
     }
 })
-
-defuser.hideMobileKeyboardOnReturn("keypress", function(event){
-    let keyboardHide = defuser.value
-    if (event.key === "Enter"){
-        keyboardHide.blur()
-    }
-})
-
-// let hideMobileKeyboardOnReturn = (keyboardEvent) => {
-//     element.addEventListener('keyup', (keyboardEvent) => {
-//         if (keyboardEvent.code === 'Enter') {
-//             element.blur();
-//         }
-//     });
-// };
-
-document.querySelementectorAll('[type=search]').forEach((defuser) => {
-    hideMobileKeyboardOnReturn(defuser);
-}); 
